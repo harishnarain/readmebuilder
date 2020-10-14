@@ -1,0 +1,12 @@
+[
+  {
+    "type": "input",
+    "name": "title",
+    "message": "Provide the title?"
+  },
+  {
+    "type": "input",
+    "name": "description",
+    "message": "Provide a description:"
+  }
+]
