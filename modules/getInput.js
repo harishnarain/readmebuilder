@@ -4,7 +4,7 @@ const fs = require("fs").promises;
 const getInput = async () => {
   // read questions.json file
   const questionsRaw = await fs
-    .readFile("sample_questions.json", "utf-8")
+    .readFile("questions.json", "utf-8")
     .then((data) => data)
     .catch((err) => {
       console.error("[Error reading file]:", err);

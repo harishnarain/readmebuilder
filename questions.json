@@ -1,0 +1,66 @@
+[
+  {
+    "type": "input",
+    "name": "title",
+    "message": "Provide the title?"
+  },
+  {
+    "type": "input",
+    "name": "description",
+    "message": "Provide a description:"
+  },
+  {
+    "type": "editor",
+    "name": "installation",
+    "message": "Provide installation instructions:"
+  },
+  {
+    "type": "input",
+    "name": "usage",
+    "message": "Provide usage information:"
+  },
+  {
+    "type": "list",
+    "name": "license",
+    "message": "Please choose a license:",
+    "choices": [
+      {
+        "name": "Apache license 2.0",
+        "value": "apache-2.0"
+      },
+      {
+        "name": "GNU General Public License v3.0",
+        "value": "gpl-3.0"
+      },
+      {
+        "name": "MIT",
+        "value": "mit"
+      }
+    ]
+  },
+  {
+    "type": "input",
+    "name": "contributing",
+    "message": "Provide contributing guidelines:"
+  },
+  {
+    "type": "editor",
+    "name": "testing",
+    "message": "Provide testing information:"
+  },
+  {
+    "type": "input",
+    "name": "questions",
+    "message": "Provide correspondence information:"
+  },
+  {
+    "type": "input",
+    "name": "githubId",
+    "message": "Provide your GitHub user name:"
+  },
+  {
+    "type": "input",
+    "name": "email",
+    "message": "Provide your email address:"
+  }
+]
