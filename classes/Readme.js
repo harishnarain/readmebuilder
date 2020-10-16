@@ -10,7 +10,19 @@ class Readme {
       (this.testing = ans.testing),
       (this.questions = ans.questions),
       (this.githubId = ans.githubId),
-      (this.email = ans.email);
+      (this.email = ans.email),
+      (this.sections = [
+        "Title",
+        "Badge",
+        "Description",
+        "TableOfContents",
+        "Installation",
+        "Usage",
+        "License",
+        "Contributing",
+        "Testing",
+        "Correspondence",
+      ]);
   }
 
   // Getters
@@ -52,6 +64,10 @@ class Readme {
 
   get Badge() {
     return this.getBadge(this.license);
+  }
+
+  get Sections() {
+    return this.sections;
   }
 
   // Methods

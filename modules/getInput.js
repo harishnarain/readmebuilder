@@ -13,19 +13,13 @@ const getInput = async () => {
   const questions = JSON.parse(questionsRaw);
 
   // iterate through each question and get input
-  let answers = [];
   if (questions) {
-    await prompt(questions)
-      .then((ans) => {
-        answers = ans;
-      })
+    return await prompt(questions)
+      .then((ans) => ans)
       .catch((err) => {
         console.error("[Error reading input]:", err);
       });
   }
-
-  // return answers
-  return answers;
 };
 
 module.exports = getInput;
