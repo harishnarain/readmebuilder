@@ -5,7 +5,7 @@
     "message": "Provide the title?"
   },
   {
-    "type": "input",
+    "type": "editor",
     "name": "description",
     "message": "Provide a description:"
   },
@@ -47,11 +47,6 @@
     "type": "editor",
     "name": "testing",
     "message": "Provide testing information:"
-  },
-  {
-    "type": "input",
-    "name": "questions",
-    "message": "Provide correspondence information:"
   },
   {
     "type": "input",
