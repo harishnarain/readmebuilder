@@ -8,7 +8,7 @@ When creating an open source project on GitHub, it is important to have a qualit
 * [Usage](#usage)
 * [License](#license)
 * [Contributing](#contributing)
-* [Testing](#testing)
+* [Screenshots](#screenshots)
 * [Questions](#questions)
 
 ## Installation
