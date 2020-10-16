@@ -64,7 +64,7 @@ class Readme {
   };
 
   getSection = (header, content) => {
-    return `##${header}\n` + content + "\n";
+    return `## ${header}\n` + content + "\n";
   };
 
   getLicense = (header, licenseType) => {
@@ -84,18 +84,18 @@ class Readme {
       default:
         licenseText = licenseIntro + "no license";
     }
-    return `##${header}\n` + licenseText + "\n";
+    return `## ${header}\n` + licenseText + "\n";
   };
 
   getCorrespondence = (header, githubId, email) => {
     const githubText = `Checkout my GitHub [profile](https://github.com/${githubId})\n`;
     const emailText = `Please feel free to email at: <${email}>\n`;
-    return `##${header}\n` + githubText + "\n" + emailText + "\n";
+    return `## ${header}\n` + githubText + "\n" + emailText + "\n";
   };
 
   getTableOfContents = () => {
     return (
-      "##Table of Contents\n" +
+      "## Table of Contents\n" +
       "* [Installation](#installation)\n" +
       "* [Usage](#usage)\n" +
       "* [License](#license)\n" +
