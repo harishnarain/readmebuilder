@@ -3,7 +3,7 @@
 
 When creating an open source project on GitHub, it is important to have a quality README with information about the app--what is the app for, how to use the app, how to install it, how to report issues, and how to make contributions so that other developers are more likely to use and contribute to the success of the project. A command-line application will allow for quick and easy generation of a project README to get started quickly. This will allow a project creator to spend more time working on finishing the project and less time creating a good README.
 
-##Table of Contents
+## Table of Contents
 * [Installation](#installation)
 * [Usage](#usage)
 * [License](#license)
@@ -11,7 +11,7 @@ When creating an open source project on GitHub, it is important to have a qualit
 * [Testing](#testing)
 * [Questions](#questions)
 
-##Installation
+## Installation
 1. Clone this GitHub repository
 
    ```
@@ -25,17 +25,17 @@ When creating an open source project on GitHub, it is important to have a qualit
    ```
 
 
-##Usage
+## Usage
 Run `node index.js` and answer the prompts to get a generated README.md in the same working directory.
-##License
+## License
 This project uses the MIT license
-##Contributing
+## Contributing
 Pull requests are welcome
-##Screenshots
+## Screenshots
 ![Walkthrough](https://github.com/harishnarain/readmebuilder/blob/master/walkthrough.gif)
 
 
-##Questions
+## Questions
 Checkout my GitHub [profile](https://github.com/harishnarain)
 
 Please feel free to email at: <harishnarain@gmail.com>
