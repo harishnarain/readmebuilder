@@ -32,7 +32,7 @@ This project uses the MIT license
 ## Contributing
 Pull requests are welcome
 ## Screenshots
-![Walkthrough](https://github.com/harishnarain/readmebuilder/blob/master/walkthrough.gif)
+[![Walkthrough](http://img.youtube.com/vi/ePTeDA3_9Gc/3.jpg)](https://www.youtube.com/watch?v=ePTeDA3_9Gc)
 
 
 ## Questions
